@@ -6,7 +6,8 @@ This Movie Recommendation Sytem is a content based system where movies similar i
 
 The application uses Cosine Similarity to rank the most similar movies and present it to the users.
 
-The application returns Hollywood Movies up till the year 2020
+The application returns Hollywood Movies up till the year 2020.
+
 This is an end to end Project right from Data Collection to Deployement.
 
 Data Collection details:

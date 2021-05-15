@@ -14,5 +14,4 @@ Data Collection details:
   - Movies from 2017 are fetched from another Kaggle Data set which is merged with another dataset which has the details for Genres
   - Movies for 2018, 2019 and 2020 are seperately fetched through web scraping using BeautilSoup4 from Wikipedia page and the assosicated genres are pulled using API from TMDB         website
 
-The application uses Cosine Similarity to give recommendations. 
 The final application is deployed on heroku platfrom and can be accessed on the Application link provided above.

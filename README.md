@@ -8,7 +8,7 @@ The application uses Cosine Similarity to rank the most similar movies and prese
 
 The application returns Hollywood Movies up till the year 2020.
 
-This is an end to end Project right from Data Collection to Deployement.
+This is an end to end Project, right from Data Collection to Deployement.
 
 Data Collection details:
   - Movies till 2016 are fetched from a Kaggle data set (Actor 1, Actor 2, Actor 3, Director, Genres)

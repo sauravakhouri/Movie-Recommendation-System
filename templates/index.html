@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Movie Recommendation System</title>
+
+    </head>
+
+    <body>
+
+        <h1>Movie Recommendation System</h1>
+
+        <!--Input to take in from user-->
+        <form action="{{url_for ('recommend')}}" method="POST">
+            <input type="text" name="Movie" placeholder="Search the movie" size="50" required="required"/>
+
+
+            <button type="submit" class="btn btn-primary btn-block btn-large">Search</button>
+
+
+
+
+        </form>
+        <br>
+        <br>
+        <h4>The recommended movies based on your search:</h4>
+        <ul>
+            {% for mov in recommend_text %}
+            <li>{{mov}}</li>
+            {% endfor %}
+        </ul>
+
+
+
+    </body>
+
+
+</html>

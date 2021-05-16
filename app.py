@@ -57,7 +57,7 @@ def recommendation(movie_user_likes):
     if movie_user_likes not in data['movie_title'].unique():
         # return (movie_user_likes)
 
-        return ('Sorry !! The movie you requested is not in our database. Please check the spelling or try with some other movies' )
+        return (['Sorry !! The movie you requested is not in our database. Please check the spelling or try with some other movies'])
     else:
         movie_index=get_indexfromtitle(movie_user_likes)
         similar_movies=list(enumerate(similarity[movie_index]))
